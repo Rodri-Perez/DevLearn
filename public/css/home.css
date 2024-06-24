@@ -1,0 +1,141 @@
+/* Global */
+
+*{
+
+    transition: .2s;
+    margin: 0;
+    box-sizing: border-box;
+    color: #fff;
+
+}
+
+html{
+
+    background-color: #01070f;
+    width: 100%;
+    height: auto;
+    font-size: 20px; 
+    font-family: 'Courier New', Courier, monospace;                                                               
+
+}
+
+/* Index */
+
+.home_logo{
+
+    position: absolute;
+    width: 15%;
+    height: auto;
+    margin: 0 42.5%;
+    border-radius: 100%;
+    z-index: 10;
+    margin-top: 2%;
+    filter: blur(2px);
+    border: 1px solid #fff;
+
+}
+.about_imagen{
+
+    position: absolute;
+    width: 15%;
+    height: auto;
+    margin: 0 42.5%;
+    border-radius: 100%;
+    z-index: 10;
+    margin-top: 2%;
+    filter: blur(2px);
+    border: 1px solid #fff;
+
+}
+
+.home_title{
+
+    margin: 8% 0;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    z-index: 20;
+    color: #008b8b;
+    -webkit-text-stroke: 2px #01070f;
+    text-shadow: 2px 2px 15px #008b8b;
+}
+
+.home_p{
+
+    margin-left: 1%;
+
+}
+
+.home_aside_p{
+
+    margin: 0 2%;
+
+}
+
+.home_container,.home_aside{
+
+    display: inline-block;
+
+}
+
+.home_container{
+
+    width: 70%;
+    margin-top: 0;
+    position: absolute;
+    top: 42vh;
+}
+
+.home_aside{
+
+    margin-top: 15%;
+    width: 20%;
+    height: auto;
+    margin-left: 76%;
+    margin-right: 2%;
+    background-color: #008b8b;
+    
+
+}
+
+.home_logo_c{
+
+    width: 40%;
+    height: auto;
+    margin: 2% 30%;
+
+}
+
+/* About */
+
+
+.about_logo{
+
+    width: 15%;
+    height: auto;
+    margin: 0 42.5%;
+    border-radius: 100%;
+   
+}
+.imagen_text{
+    color:#ffb6c1;
+}
+.container_about{
+
+    display: inline-block;
+    width: 75%;
+    margin-top: 5%;
+    
+
+}
+
+.welcome{
+
+    font-weight: 700;
+
+
+}
+.about_title {
+    font-weight: 900;
+    color: #008b8b;
+}
