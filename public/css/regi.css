@@ -8,7 +8,7 @@
 html{
 
     overflow-y: hidden;
-    background-image: url("/imagen/fondos/login.jpg");
+    background-image: url("/imagen/fondos/register.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
@@ -19,31 +19,26 @@ html{
     }
 
 body{
-
     display: flex;
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-
+    
 }
 
-.container_log{
+
+.container_reg{
 
     position: absolute;
     z-index: 10;
     width: 48vh;
-    height: 75vh;
+    height: 85vh;
     border-radius: 30px;
     border: 1px solid #3c3d3c;
-    backdrop-filter: blur(15px);
+    backdrop-filter: blur(5px);
 
 }
 
-.form_log{
-
-    width: 40vh;
-
-}
 
 .color{
 

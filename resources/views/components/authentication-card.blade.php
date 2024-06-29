@@ -1,6 +1,8 @@
-<div class="min-h-screen flex flex-col items-center m-3 pb-2">
+<div class="min-h-screen flex flex-col items-center m-6 pb-2">
     <div>
-        {{ $logo }}
+        <a href="/">  
+            {{ $logo }}
+        </a>
     </div>
 
     <div class="pt-3">

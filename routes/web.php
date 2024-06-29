@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\UserController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -13,9 +13,24 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+
+
+Route::get('/',[UserController::class,'welcome'])->name('index');
+
+Route::get('/about',[UserController::class,'about'])->name('about');
+
+Route::get('/courses',[UserController::class,'courses'])->name('courses');
+
+Route::get('/info',[UserController::class,'info'])->name('info');
+
+Route::get('/support',[UserController::class,'support'])->name('support');
+
+Route::get('/sigin',[UserController::class,'sigin'])->name('login');
+
+Route::get('/regi',[UserController::class,'regi'])->name('regi');
+
+
+
 
 Route::middleware([
     'auth:sanctum',
