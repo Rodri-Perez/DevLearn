@@ -15,19 +15,19 @@ use App\Http\Controllers\UserController;
 
 
 
-Route::get('/',[UserController::class,'welcome'])->name('index');
+Route::view('/',[UserController::class,'welcome'])->name('index');
 
-Route::get('/about',[UserController::class,'about'])->name('about');
+// Route::get('/about',[UserController::class,'about'])->name('about');
 
-Route::get('/courses',[UserController::class,'courses'])->name('courses');
+// Route::get('/courses',[UserController::class,'courses'])->name('courses');
 
-Route::get('/info',[UserController::class,'info'])->name('info');
+// Route::get('/info',[UserController::class,'info'])->name('info');
 
-Route::get('/support',[UserController::class,'support'])->name('support');
+// Route::get('/support',[UserController::class,'support'])->name('support');
 
-Route::get('/sigin',[UserController::class,'sigin'])->name('login');
+// Route::get('/sigin',[UserController::class,'sigin'])->name('login');
 
-Route::get('/regi',[UserController::class,'regi'])->name('regi');
+// Route::get('/regi',[UserController::class,'regi'])->name('regi');
 
 
 

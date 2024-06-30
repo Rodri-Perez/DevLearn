@@ -29,13 +29,12 @@ body{
 
 .container_log{
 
-    position: absolute;
-    z-index: 10;
+    margin-top: 3%;
     width: 48vh;
-    height: 75vh;
+    height: auto;
     border-radius: 30px;
     border: 1px solid #3c3d3c;
-    backdrop-filter: blur(15px);
+    backdrop-filter: blur(5px);
 
 }
 

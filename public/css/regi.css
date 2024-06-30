@@ -7,7 +7,7 @@
 /*  Hola */
 html{
 
-    overflow-y: hidden;
+    
     background-image: url("/imagen/fondos/register.jpg");
     background-repeat: no-repeat;
     background-position: center;
@@ -17,6 +17,21 @@ html{
     height: auto;
     
     }
+
+html::-webkit-scrollbar{
+    
+    background: transparent;
+    width: 10px;
+    
+}
+
+html::-webkit-scrollbar-thumb{
+    
+    background-color: #3c3d3c;
+    border-radius: 30px;
+    margin: 2px;
+
+}
 
 body{
     display: flex;
@@ -29,10 +44,9 @@ body{
 
 .container_reg{
 
-    position: absolute;
-    z-index: 10;
+    margin: 2%;
     width: 48vh;
-    height: 85vh;
+    height: auto;
     border-radius: 30px;
     border: 1px solid #3c3d3c;
     backdrop-filter: blur(5px);

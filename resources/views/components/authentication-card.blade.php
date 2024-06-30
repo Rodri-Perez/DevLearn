@@ -1,4 +1,4 @@
-<div class="min-h-screen flex flex-col items-center m-6 pb-2">
+<div class="flex flex-col items-center m-6 pb-2">
     <div>
         <a href="/">  
             {{ $logo }}

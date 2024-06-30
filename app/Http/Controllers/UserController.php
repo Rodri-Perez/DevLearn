@@ -13,7 +13,7 @@ class UserController extends Controller
 
     }
 
-    public function about(){
+  /*   public function about(){
     
         return view('about');
 
@@ -48,5 +48,5 @@ class UserController extends Controller
         return view('regi');
 
     }
-
+ */
 }
