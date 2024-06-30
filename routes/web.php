@@ -17,7 +17,7 @@ use App\Http\Controllers\UserController;
 
 Route::view('/',[UserController::class,'welcome'])->name('index');
 
-// Route::get('/about',[UserController::class,'about'])->name('about');
+Route::get('/about',[UserController::class,'about'])->name('about');
 
 // Route::get('/courses',[UserController::class,'courses'])->name('courses');
 
