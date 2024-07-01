@@ -47,28 +47,28 @@
         </div>
  <div class="card">
             <figure>
-                <img src="/imagen/logos/logo_laravel.png" class="logo_card">
-                <h3 class="card_titulo">Laravel</h3>
+                <img src="/imagen/logos/logo_arduino.png" class="logo_card">
+                <h3 class="card_titulo">Arduino</h3>
                 <p></p>
             </figure>
         </div>
  <div class="card">
             <figure>
-                <img src="/imagen/logos/logo_laravel.png" class="logo_card">
-                <h3 class="card_titulo">Laravel</h3>
+                <img src="/imagen/logos/logo_javascript.jpg" class="logo_card">
+                <h3 class="card_titulo">JavaScript</h3>
                 <p></p>
             </figure>
         </div>
  <div class="card">
             <figure>
-                <img src="/imagen/logos/logo_laravel.png" class="logo_card">
-                <h3 class="card_titulo">Laravel</h3>
+                <img src="/imagen/logos/logo_css.png" class="logo_card">
+                <h3 class="card_titulo">Css</h3>
                 <p></p>
             </figure>
         </div>
  <div class="card">
             <figure>
-                <img src="/imagen/logos/logo_html.jpg" class="logo_card">
+                <img src="/imagen/logos/logo_html.png" class="logo_card">
                 <h3 class="card_titulo">Html</h3>
                 <p></p>
             </figure>
