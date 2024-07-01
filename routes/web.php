@@ -42,7 +42,7 @@ Route::middleware([
     })->name('dashboard');
 });
 
-Route::get("/courses", function (){
+Route::resources("/courses", function (){
 
     return view('courses');
 
