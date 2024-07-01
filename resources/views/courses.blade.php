@@ -68,8 +68,8 @@
         </div>
  <div class="card">
             <figure>
-                <img src="/imagen/logos/logo_laravel.png" class="logo_card">
-                <h3 class="card_titulo">Laravel</h3>
+                <img src="/imagen/logos/logo_html.jpg" class="logo_card">
+                <h3 class="card_titulo">Html</h3>
                 <p></p>
             </figure>
         </div>
