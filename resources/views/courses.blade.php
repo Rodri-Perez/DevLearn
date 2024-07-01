@@ -33,21 +33,21 @@
         </div>
  <div class="card">
             <figure>
-                <img src="/imagen/logos/logo_laravel.png" class="logo_card">
-                <h3 class="card_titulo">Laravel</h3>
+                <img src="/imagen/logos/logo_c.png" class="logo_card">
+                <h3 class="card_titulo">C</h3>
                 <p></p>
             </figure>
         </div>
   <div class="card">
             <figure>
-                <img src="/imagen/logos/logo_laravel.png" class="logo_card">
-                <h3 class="card_titulo">Laravel</h3>
+                <img src="/imagen/logos/logo_mysql.jpg" class="logo_card">
+                <h3 class="card_titulo">MySQL</h3>
                 <p></p>
             </figure>
         </div>
  <div class="card">
             <figure>
-                <img src="/imagen/logos/logo_arduino.png" class="logo_card">
+                <img src="/imagen/logos/logo_arduino.jpg" class="logo_card">
                 <h3 class="card_titulo">Arduino</h3>
                 <p></p>
             </figure>
