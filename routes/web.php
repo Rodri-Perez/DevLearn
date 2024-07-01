@@ -42,8 +42,4 @@ Route::middleware([
     })->name('dashboard');
 });
 
-Route::resources("/courses", function (){
-
-    return view('courses');
-
-});
+Route::resource(name:'courses', UserController::class);
