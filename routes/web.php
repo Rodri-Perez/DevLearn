@@ -15,9 +15,9 @@ use App\Http\Controllers\UserController;
 
 
 
-Route::view('/',[UserController::class,'welcome'])->name('index');
+// Route::view('/',[UserController::class,'welcome'])->name('index');
 
-Route::get('/about',[UserController::class,'about'])->name('about');
+// Route::middleware('auth.sanctum')->get('/about',[UserController::class,'about'])->name('about');
 
 // Route::get('/courses',[UserController::class,'courses'])->name('courses');
 
@@ -40,4 +40,10 @@ Route::middleware([
     Route::get('/dashboard', function () {
         return view('dashboard');
     })->name('dashboard');
+});
+
+Route::get("/courses", function (){
+
+    return view('courses');
+
 });

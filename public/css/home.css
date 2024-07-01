@@ -23,21 +23,7 @@ html{
 
 .home_logo{
 
-    position: absolute;
-    width: 15%;
-    height: auto;
-    margin: 0 42.5%;
-    border-radius: 100%;
-    z-index: 10;
-    margin-top: 2%;
-    filter: blur(2px);
-    border: 1px solid #fff;
-
-}
-.about_imagen{
-
-    position: absolute;
-    width: 15%;
+    width: 20%;
     height: auto;
     margin: 0 42.5%;
     border-radius: 100%;
@@ -49,41 +35,67 @@ html{
 }
 
 .home_title{
-
-    margin: 8% 0;
+    
     text-align: center;
+    top: 18%;
     width: 100%;
     position: absolute;
     z-index: 20;
     color: #008b8b;
     -webkit-text-stroke: 2px #01070f;
     text-shadow: 2px 2px 15px #008b8b;
+    font-size: 50px;
 }
 
 .home_p{
 
-    margin-left: 1%;
+    margin: 2% 1%;
+
 
 }
 
-.home_aside_p{
+.container_home{
 
-    margin: 0 2%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+.container_home div h1{
+
+    font-size: 40px;
+text-align: start;    
 
 }
 
-.home_container,.home_aside{
+.container_home div h2{
 
-    display: inline-block;
+text-align: start;
+    font-size: 25px;
+    font-style: italic;
+    font-weight: 400;
+    color: #585858;
 
 }
 
-.home_container{
+.container_home_text{
 
-    width: 70%;
-    margin-top: 0;
-    position: absolute;
-    top: 42vh;
+    width: 60%;
+    padding: 2%;
+
+}
+
+.container_home_img{
+
+    padding-right: 4%;
+    width: 40%;
+
+}
+
+img{
+
+    border-radius: 30px;
+
 }
 
 .home_aside{
@@ -105,6 +117,147 @@ html{
     margin: 2% 30%;
 
 }
+
+.inline_home{
+
+    display: inline;
+    margin: 2%;
+
+}
+
+.container_text_li p, .container_text_li i{
+
+    display: block;
+    margin: 2%;
+
+}
+
+.icon-list{
+
+    margin: 8% 0;
+
+}
+
+.articulo_intro{
+
+margin: 2%;
+
+}
+
+
+.articulo_intro_titulo{
+
+    color: #008b8b;
+    
+}
+
+
+.article_cards{
+
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 4%;
+
+
+}
+.article_card_titulo{
+
+font-size: 30px;
+color: #008b8b;
+margin: 0 2%;
+
+
+}
+.card{
+
+border: 1px solid #585858;
+border-radius: 30px;
+padding: 5%;
+width: 25%;
+height: auto;
+
+}
+
+.card figure{
+
+display: block;
+
+}
+
+.logo_card{
+
+width: 90%;
+height: auto;
+
+}
+
+.card_titulo{
+
+
+    color: #4f0496;
+    font-size: 30px;
+    font-weight: 800;
+
+}
+
+.article_container-porque{
+
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 2%;
+
+}
+
+.titulo_porque{
+
+text-align: center;
+color: #008b8b;
+
+}
+
+.subtitulo_porque{
+
+    color: #585858;
+    font-size: 20px;
+    text-align: center;
+
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    clear: both;
+  }
+  
+  .copyright {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  .social-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .social-links li {
+    margin-right: 20px;
+  }
+  
+  .social-links a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .social-links a:hover {
+    color: #ccc;
+  }
 
 /* About */
 
@@ -138,4 +291,18 @@ html{
 .about_title {
     font-weight: 900;
     color: #008b8b;
+}
+
+.about_imagen{
+    
+        position: absolute;
+        width: 15%;
+        height: auto;
+        margin: 0 42.5%;
+        border-radius: 100%;
+        z-index: 10;
+        margin-top: 2%;
+        filter: blur(2px);
+        border: 1px solid #fff;
+    
 }
