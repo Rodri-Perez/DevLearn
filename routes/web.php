@@ -14,12 +14,11 @@ use App\Http\Controllers\UserController;
 */
 
 
-
-// Route::view('/',[UserController::class,'welcome'])->name('index');
+Route::view('/',[UserController::class,'welcome'])->name('index');
 
 // Route::middleware('auth.sanctum')->get('/about',[UserController::class,'about'])->name('about');
 
-// Route::get('/courses',[UserController::class,'courses'])->name('courses');
+Route::get('/courses',[UserController::class,'courses'])->name('courses');
 
 // Route::get('/info',[UserController::class,'info'])->name('info');
 
@@ -41,5 +40,3 @@ Route::middleware([
         return view('dashboard');
     })->name('dashboard');
 });
-
-Route::resource(name:'courses', UserController::class);
