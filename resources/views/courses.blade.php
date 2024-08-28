@@ -10,6 +10,8 @@
     <section>
             <h1 class="article_card_titulo">Todos Nuestros Cursos</h1>
     <article class="article_cards">
+    <div class="row g-0 justify-content-center justify-content-md-between">
+        <div class="card p-2 col-8 m-2 mb-md-5 mb-lg-0" style="width: 18rem;">
         <div class="card">
             <figure>
                 <img src="/imagen/logos/logo_piton.png" class="logo_card">
@@ -18,7 +20,7 @@
 los desarrolladores utilizan phyton porque es eficiente y facil de aprender,ademas que se puede ejecutar en varias plataformas diferentes.</p>
             </figure>
         </div>
-        <div class="card">
+        <div class="card p-2 col-8 m-2 mb-md-5 mb-lg-0" style="width: 18rem;">
             <figure>
                 <img src="/imagen/logos/logo_laravel.png" class="logo_card">
                 <h3 class="card_titulo">Laravel</h3>
@@ -26,7 +28,7 @@ los desarrolladores utilizan phyton porque es eficiente y facil de aprender,adem
 su sintaxis elegante y concisa,su enfoque basado en el desarrollo basado en prueba de paquetes y herramientas.</p>
             </figure>
         </div>
-        <div class="card">
+        <div class="card p-2 col-8 m-2 mb-md-5 mb-lg-0" style="width: 18rem;">
             <figure>
                 <img src="/imagen/logos/logo_cmas.png" class="logo_card">
                 <h3 class="card_titulo">C++</h3>
@@ -34,7 +36,7 @@ su sintaxis elegante y concisa,su enfoque basado en el desarrollo basado en prue
 programacion estructurada de alto nivel y rendimiento ,como sistemas operativos,videojuegos etc.</p>
             </figure>
         </div>
- <div class="card">
+ <div class="card p-2 col-8 m-2 mb-md-5 mb-lg-0" style="width: 18rem;">
             <figure>
                 <img src="/imagen/logos/logo_c.png" class="logo_card">
                 <h3 class="card_titulo">C</h3>
@@ -42,14 +44,14 @@ programacion estructurada de alto nivel y rendimiento ,como sistemas operativos,
  y una ejecucion rapida de programas.</p>
             </figure>
         </div>
-  <div class="card">
+  <div class="card p-2 col-8 m-2 mb-md-5 mb-lg-0" style="width: 18rem;">
             <figure>
                 <img src="/imagen/logos/logo_mysql.jpg" class="logo_card">
                 <h3 class="card_titulo">MySQL</h3>
                 <p>es un sistema de bases de datos,que se utiliza para gestionar  bases de datos,se utiliza para el almacenamiento de datos de diversos servicios web.</p>
             </figure>
         </div>
- <div class="card">
+ <div class="card p-2 col-8 m-2 mb-md-5 mb-lg-0" style="width: 18rem;">
             <figure>
                 <img src="/imagen/logos/logo_arduino.jpg" class="logo_card">
                 <h3 class="card_titulo">Arduino</h3>
@@ -57,7 +59,7 @@ programacion estructurada de alto nivel y rendimiento ,como sistemas operativos,
 de acuerdo al programa descargado interactua con el mundo fisico gracias a sensores y actuadores.</p>
             </figure>
         </div>
- <div class="card">
+ <div class="card p-2 col-8 m-2 mb-md-5 mb-lg-0" style="width: 18rem;">
             <figure>
                 <img src="/imagen/logos/logo_javascript.jpg" class="logo_card">
                 <h3 class="card_titulo">JavaScript</h3>
@@ -65,7 +67,7 @@ de acuerdo al programa descargado interactua con el mundo fisico gracias a senso
 desde actualizar fuentes de redes sociales  y mostrar animaciones y mapas interactivos etc.</p>
             </figure>
         </div>
- <div class="card">
+ <div class="card p-2 col-8 m-2 mb-md-5 mb-lg-0" style="width: 18rem;">
             <figure>
                 <img src="/imagen/logos/logo_css.png" class="logo_card">
                 <h3 class="card_titulo">Css</h3>
@@ -73,14 +75,14 @@ desde actualizar fuentes de redes sociales  y mostrar animaciones y mapas intera
 es decir permite generar el diseño visual de paginas web e interfaces de usuario.</p>
             </figure>
         </div>
- <div class="card">
+ <div class="card p-2 col-8 m-2 mb-md-5 mb-lg-0" style="width: 18rem;">
             <figure>
                 <img src="/imagen/logos/logo_html.png" class="logo_card">
                 <h3 class="card_titulo">Html</h3>
                 <p>es un lenguaje de marcado de hipertexto,su codigo se utiliza para estructurar y desplegar una pagina web y sus contenidos(parrafos,lista con viñetas ,imagenes ,etc)</p>
             </figure>
         </div>
-      <div class="card">
+      <div class="card p-2 col-8 m-2 mb-md-5 mb-lg-0" style="width: 18rem;">
             <figure>
                 <img src="/imagen/logos/logo_php.png" class="logo_card">
                 <h3 class="card_titulo">MySQL</h3>
@@ -88,6 +90,8 @@ es decir permite generar el diseño visual de paginas web e interfaces de usuari
 segura para aquellos que desean trabajar en proyectos calificados y sin complicaciones.</p>
             </figure>
         </div>
+</div>
+</div>
     </article>
     </section>
 @endsection
